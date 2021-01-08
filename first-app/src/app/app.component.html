@@ -1,1 +1,7 @@
-<h1>{{title}}</h1>
+<app-header></app-header>
+<div class="card">
+  <div class="card-header">Lista de elementos</div>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let element of elements">{{element}}</li>
+  </ul>
+</div>
