@@ -1,5 +1,5 @@
 Angular Curso
 Crear proyecto
 ```bash
-npm install blockly
+ng new new-app
 ```
